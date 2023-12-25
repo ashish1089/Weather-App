@@ -1,0 +1,25 @@
+/* xs */
+@media (min-width: 475px) {
+  .user_temp h1 {
+    font-size: 4rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .user_temp h1 {
+    font-size: 6rem;
+  }
+
+  .current-location {
+    border-radius: 1rem 0 0 1rem;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .current-location {
+    height: 40rem;
+    width: 30rem;
+  }
+}

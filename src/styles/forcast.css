@@ -1,0 +1,58 @@
+.forcast {
+  background: rgba(0, 0, 0, 0.768);
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  color: #faf6f6;
+  padding: .7rem 1.5rem;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid rgb(255, 255, 255, 0.8);
+  background: rgb(255, 255, 255, 0.1);
+}
+
+
+.forcast__temp {
+  font-size: 3rem;
+}
+
+.forcast__top {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.searchBtn {
+  width: 3rem;
+  margin-left: .6rem;
+}
+
+
+@media (min-width: 640px) {
+  .forcast__temp {
+    font-size: var(--size-5xl);
+  }
+
+  .forcast {
+    border-radius: 0 1rem 1rem 0;
+  }
+
+  .city_desc {
+    margin-top: .5rem;
+  }
+
+  .city_desc p {
+    font-size: var(--size-2xl);
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .forcast {
+    height: 40rem;
+    width: 20rem;
+  }
+}

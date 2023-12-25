@@ -1,0 +1,105 @@
+/* utility classes have the higest priority, a zero in top and bottom won't allow us to add margin on top and bottom on any element that has utility classes - don't use shorthand property */
+.container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 1rem;
+}
+
+.section {
+  margin-top: 1rem;
+}
+
+.user__location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+::placeholder {
+  color: #e1dbdb;
+}
+
+.current-location,
+.forcast {
+  border-radius: 1rem;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+}
+
+.city_desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.weather-data {
+  background-color: rgb(8, 8, 8, 0.4);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 0 1rem 0 1rem;
+  padding: 0.5rem;
+  border-radius: 12px;
+  font-size: var(--size-lg);
+}
+
+.forcast .weather-data {
+  background-color: rgb(255, 255, 255, 0.06);
+}
+
+.weather .forcast__temp {
+  padding-top: 1rem;
+}
+
+.forcast {
+  padding: 1rem 1rem .5rem 1rem;
+  overflow: auto;
+}
+
+.errorMsg {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}

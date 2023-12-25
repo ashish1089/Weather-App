@@ -1,0 +1,14 @@
+/* xs */
+@media (min-width: 475px) {
+  .weather-data {
+    flex-direction: row;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .weather-data {
+    flex-direction: column;
+    font-size: var(--size-lg);
+  }
+}
