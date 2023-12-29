@@ -22,3 +22,8 @@ Welcome to the Weather App! This application provides real-time weather forecast
 
 ## Live Demo
 Check out the live demo [here](https://weather-app-ashish1089.vercel.app/).
+
+## Setup
+```sh
+$ npm install && npm run dev
+```
